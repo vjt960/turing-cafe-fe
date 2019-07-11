@@ -32,7 +32,7 @@ class ResyForm extends Component {
       name: '',
       date: '',
       time: '',
-      guests: '',
+      number: '',
       id: ''
     });
   };
@@ -63,8 +63,8 @@ class ResyForm extends Component {
         />
         <input
           type="text"
-          title="guests"
-          value={this.state.guests}
+          title="number"
+          value={this.state.number}
           onChange={event => this.handleChange(event)}
           placeholder="Number of guests"
         />
